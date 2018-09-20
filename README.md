@@ -67,3 +67,11 @@ This step will run the API, accept querys and return the search results.
   The search result will only return all the movies which contain all the valid keywords.<br/>
   
 3. "Q" is not a keyword but a symbol to quit the API program.
+
+4. The list of top 1000 movies does not change frequently. So data after indexing is fresh.
+
+## improvements：
+1. More user-friendly UX. Such as a webpage.
+2. Auto correction for keywords. 
+3. Use parallel computing to get better performance.
+4. Use distributed database.
