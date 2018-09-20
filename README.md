@@ -14,16 +14,16 @@
     
 3. Run in terminal:
 ```
-  g++ indexing.cpp
-  ./a.out
+  g++ indexing.cpp -o indexing
+  ./indexing
 ```
   This step will indexing the keywords. Each keyword will be mapped with a list of movies which contain this keyword.<br/>
   Store the keywords map into "indexed_data.txt".
   
  4. Run in terminal:
  ```
-  g++ search.cpp
-  ./a.out
+  g++ search.cpp -o search
+  ./search
 ```
 Loading indexed_data...<br/>
 Loading done...<br/>
@@ -65,3 +65,5 @@ This step will run the API, accept querys and return the search results.
   
 2. Keywords in the query are supposed to be correct and valid.<br/>
   The search result will only return all the movies which contain all the valid keywords.<br/>
+  
+3. "Q" is not a keyword but a symbol to quit the API program.
