@@ -3,12 +3,14 @@
 
 1. Download BeatifulSoup and install.
 
-2. Run "python crawl.py" in terminal:
+2. Run "python crawl.py" in terminal: 
 ```
   python crawl.py  
 ```
    This step will crawl the movie website and parse to get useful keywords for each movie (such as movie name, directors, actors, writers, year, genres, country and languages). Each keyword will be writen in lower case.<br/>
-    Store the keywords into "raw_data.txt".
+    Store the keywords into "raw_data.txt". <br/>
+    Please wait patiently when it is crawling. (15+ minutes)  
+    
     
 3. Run in terminal:
 ```
