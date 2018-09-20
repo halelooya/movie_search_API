@@ -26,7 +26,7 @@
 Loading indexed_data...<br/>
 Loading done...<br/>
 /-------------------------------------------/<br/>
-/--------Search-top-1000-IMDB-movie---------/<br/>
+/------Search-top-1000-IMDB-movie-------/<br/>
 /-------------------------------------------/<br/>
 /Search by movie_name / directors / writers / <br/>
 /actors / genres / year / country / language/<br/>
@@ -56,3 +56,9 @@ Q<br/>
 
 This step will run the API, accept querys and return the search results.
 
+## simplifying assumptions:
+1. Only use "movie name, directors, actors, writers, year, genres, country and languages" to search related movie.<br/>
+  To make easier, those infomations are enough for a quick search.<br/>
+  <br/>
+2. Keywords in the query are supposed to be correct and valid.<br/>
+  The search result will only return all the movies which contain all the valid keywords.<br/>
